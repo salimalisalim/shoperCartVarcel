@@ -1,0 +1,50 @@
+.MuiRating-root {
+    font-size: 1rem !important;
+}
+
+.single-product .product-info .review li span {
+    font-size: 12px;
+}
+
+.single-product .product-image .wishlist button {
+
+    background: #eee;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    color: #555;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: 0.5s all ease-in-out;
+
+}
+
+.single-product .product-image .in-wish-list button {
+    background: #f73232 !important;
+    color: #fff !important;
+}
+
+.single-product .product-image .wishlist button i {
+    transition: 0.5s all ease-in-out;
+}
+
+.single-product .product-image .wishlist button:hover {
+    background: #f73232;
+    color: #fff;
+    transform: scale(1.03);
+}
+
+.single-product .product-image .wishedItem button {
+    background: #f73232;
+    color: #fff;
+}
+
+.single-product .product-image .wishlist button:hover i {
+    transform: scale(1.1);
+    color: #fff;
+}

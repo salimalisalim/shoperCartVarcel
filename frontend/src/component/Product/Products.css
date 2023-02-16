@@ -1,0 +1,22 @@
+.MuiSlider-root {
+  color: #0167f3 !important;
+}
+.MuiSlider-track,.MuiSlider-rail{
+  height: 7px !important;
+  border-radius: 10px !important;
+}
+.MuiSlider-thumb {
+  width: 16px !important;
+  height: 16px !important;
+}
+.category-list li button{
+  border: 0px;
+  background-color: none;
+  background: none;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+.category-list li button:hover{
+  color: #0167f3;
+}

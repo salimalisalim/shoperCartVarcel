@@ -1,0 +1,99 @@
+.emptyCart {
+  margin: auto;
+  text-align: center;
+  padding: 10vmax;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyCart>svg {
+  font-size: 5vmax;
+  color: #0167f3;
+}
+
+.emptyCart>p {
+  font-size: 2vmax;
+}
+
+.emptyCart>a {
+  background-color: #0167f3;
+  color: white;
+  border: none;
+  padding: 1vmax 3vmax;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cartPage {
+  padding: 5vmax;
+}
+
+.bg-success {
+  background-color: red;
+}
+
+.cartInput {
+  display: flex;
+  align-items: center;
+  height: 8vmax;
+}
+
+.cartInput>button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.616);
+  padding: 0.5vmax;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+}
+
+.cartInput>button:hover {
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+.remove-item {
+  cursor: pointer;
+}
+
+.cartInput>input {
+  border: none;
+  padding: 0.5vmax;
+  width: 4vmax;
+  text-align: center;
+  outline: none;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .cartPage {
+    padding: 0;
+    min-height: 60vh;
+  }
+
+  .cartContainer {
+    width: 100%;
+    grid-template-columns: 3fr 1fr 1fr;
+  }
+
+  .cartInput {
+    height: 20vmax;
+  }
+
+  .cartInput>button {
+    padding: 1.5vmax;
+  }
+
+  .cartInput>input {
+    width: 7vmax;
+    padding: 0;
+    font-size: 2vmax;
+    color: red;
+  }
+
+
+}
