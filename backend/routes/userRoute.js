@@ -23,9 +23,9 @@ router.route("/register").post(registerUser);
 
 router.route("/login").post(loginUser);
 
-router.route("/sendOTP").post(loginPhoneSendOTP);
+//router.route("/sendOTP").post(loginPhoneSendOTP);
 
-router.route("/verifyOTP").post(loginPhoneOTPVerify);
+//router.route("/verifyOTP").post(loginPhoneOTPVerify);
 
 router.route("/password/forgot").post(forgotPassword);
 
